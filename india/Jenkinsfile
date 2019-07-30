@@ -12,6 +12,8 @@ node
    stage('------------------------INSTALL-------------------------') 
    {
     //echo $pwd
+    path=$PWD
+    echo $path
     sh "${mvnHome}/bin/mvn clean install"
    }
 }
