@@ -8,6 +8,8 @@ node
       
    }
    
+    echo $PWD
+   
    stage('Clean') {
       // Run the maven clean
     // def mp = tool name: '/Users/vijaygovind/apache-maven-3.5.4', type: 'maven'
