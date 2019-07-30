@@ -24,6 +24,7 @@ node
    
    stage('------------------------PACKAGE-------------------------') 
    {
+    echo $PWD
     sh "${mvnHome}/bin/mvn package"
    }
 }
