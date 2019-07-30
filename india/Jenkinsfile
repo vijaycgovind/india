@@ -11,9 +11,8 @@ node
    
    stage('------------------------INSTALL-------------------------') 
    {
-    //echo $pwd
-    path=$PWD
-    echo $path
-    sh "${mvnHome}/bin/mvn clean install"
+ 
+    sh "${mvnHome}/bin/mvn -f india/pom.xml clean install"
+ 
    }
 }
